@@ -7,7 +7,7 @@ import UsaFlag from '../assets/united-states.svg';
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import Card from '../assets/cart.svg';
 import { Link } from 'react-router-dom';
-import Header_bottom from './Header_bottom';
+import HeaderBottom from './HeaderBottom';
 import Radio from '@material-ui/core/Radio';
 import RadioGroup from '@material-ui/core/RadioGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
@@ -18,7 +18,7 @@ import '../responsive/HeaderResponsive.css';
 
 
 function Header() {
-  const [basket, dispatch] = useStateValue({});
+  const [basket] = useStateValue({});
   const [user] = useStateValue({});
   const [value, setValue] = React.useState('female');
 
@@ -173,7 +173,7 @@ function Header() {
         
         </div>
         <div className="Header_bottom">
-       <Header_bottom/>
+       <HeaderBottom/>
         </div>
       </div>
 

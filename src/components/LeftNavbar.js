@@ -14,61 +14,63 @@ import { useStateValue } from "../StateProvider";
 
 
 function LeftNavbar() {
-    // const animate = document.querySelector('.left_navbar_navigation').animate([
-    //         {tranform: 'translateX(-380px)'},
-    //         {transform: 'translateX(0px)'}
-    //     ],{
-    //         duration:250,
-    //     });
+    
  
     document.body.addEventListener('click', () => {
         document.body.style.overflow = "scroll";
     });
-    const [basket, dispatch] = useStateValue({});
     const [user] = useStateValue({});
   
      const remove_icon = (e) =>{
-         let close = document.getElementById("left_navbar").style.display = "none";
+         let close = document.getElementById("left_navbar");
+         close.style.display = "none";
         document.body.style.overflow = "scroll";
         
      }
-     const OpenMusic = (e) => {
-        // let openMusic = document.querySelector("#amazonMusic").style.display = "flex";
-        // let closeMusc = document.querySelector("#left_navbar").style.display = "none"
-     }
+     
      const amazon_music = (e) => {
-         let open_amazon_music = document.querySelector('.amazon_music').style.display = "block";
-         let close_all_list = document.querySelector('.left_navbar_product_ul_list').style.display = "none";
+         let open_amazon_music = document.querySelector('.amazon_music');
+         open_amazon_music.style.display = "block";
+         let close_all_list = document.querySelector('.left_navbar_product_ul_list');
+          close_all_list.style.display = "none";
      }
      const closeMusic = (e) => {
-         let open_nav_music = document.querySelector('.left_navbar_product_ul_list').style.display = "block";
-         let close_nav_music = document.querySelector('.amazon_music').style.display = "none";
+         let open_nav_music = document.querySelector('.left_navbar_product_ul_list');
+         open_nav_music.style.display = "block";
+         let close_nav_music = document.querySelector('.amazon_music');
+         close_nav_music.style.display = "none";
      }
 
      const seeAllClick = (e) => {
-         let closeSeeAll = document.querySelector('#see_all_none_block').style.display = "none";
-         let openSeeAll = document.querySelector('.see_All').style.display ="block";
+         let closeSeeAll = document.querySelector('#see_all_none_block');
+          closeSeeAll.style.display = "none";
+         let openSeeAll = document.querySelector('.see_All');
+         openSeeAll.style.display ="block";
 
-        //  openSeeAll.classList.add('block');
-        //  closeSeeAll.classList.add('none');
+        
      }
 
      const seLessClick = (e) => {
-        let openSeeAll = document.querySelector('.see_All').style.display = "none";
-        let closeSeeAll = document.querySelector('#see_all_none_block').style.display = "flex";
+        let openSeeAll = document.querySelector('.see_All');
+        openSeeAll.style.display = "none";
+        let closeSeeAll = document.querySelector('#see_all_none_block');
+        closeSeeAll.style.display = "flex";
 
-        //  closeSeeAll.classList.add('block');
 
      }
 
      const seeAllClick2 = (e) => {
-         let closeSeeAll2 = document.querySelector('#see_all_none_block2').style.display = "none";
-         let openSeeAll2 = document.querySelector('.see_all2').style.display = "block";
+         let closeSeeAll2 = document.querySelector('#see_all_none_block2');
+         closeSeeAll2.style.display = "none";
+         let openSeeAll2 = document.querySelector('.see_all2');
+         openSeeAll2.style.display = "block";
      }
 
      const seeLessClick2 = (e) => {
-         let openSeeAll2 = document.querySelector('.see_all2').style.display = "none";
-         let closeSeeAll2 = document.querySelector('#see_all_none_block2').style.display = "flex";
+         let openSeeAll2 = document.querySelector('.see_all2');
+         openSeeAll2.style.display = "none";
+         let closeSeeAll2 = document.querySelector('#see_all_none_block2');
+         closeSeeAll2.style.display = "flex";
      }
      
     return (

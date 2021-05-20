@@ -2,7 +2,7 @@ import React from 'react';
 import { useStateValue } from "../StateProvider";
 
 function CartItem({id, image, title, cost}) {
-    const [basket, dispatch] = useStateValue();
+    const [ dispatch] = useStateValue();
     const removFromBasket = (e) => {
         dispatch({
             type: "REMOVE_FROM_BASKET",

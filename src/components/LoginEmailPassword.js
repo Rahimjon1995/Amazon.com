@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../styles/LoginEmailPassword.css'
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-import {auth, provider} from "../firebase";
+import {auth} from "../firebase";
 import { Link, useHistory } from 'react-router-dom';
 import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 import { useStateValue } from "../StateProvider";
@@ -9,7 +9,7 @@ import { useStateValue } from "../StateProvider";
 
 
 function LoginEmailPassword() {
-  const [user, dispatch] = useStateValue({});
+  const [ dispatch] = useStateValue({});
   const history = useHistory();     
   const [email, setEmail] =useState('');
   const [password, setPassword] =useState('');

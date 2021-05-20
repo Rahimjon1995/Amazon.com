@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Product.css';
-import { Link } from 'react-router-dom';
 import Item from './Item';
 import Header from './Header';
 

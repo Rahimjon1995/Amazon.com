@@ -11,7 +11,7 @@ function Login() {
     }
     return (
         <div className="login">
-            <img className="login_logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1000px-Amazon_logo.svg.png"/>
+            <img className="login_logo" alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1000px-Amazon_logo.svg.png"/>
 
             <p className="amazon_infor">Buy your products in low price in Amazon.com Co-founder jeff Bezos</p>
             <button className="sign-in" onClick={signIn}>Sign In</button>

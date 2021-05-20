@@ -1,5 +1,4 @@
 import './App.css';
-import Login from './components/Login';
 // import Header from './components/Header';
 import LoginEmailPassword from './components/LoginEmailPassword';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';

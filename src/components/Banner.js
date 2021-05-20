@@ -7,7 +7,6 @@ import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 function Banner({all}) {
     const [img, setImg ] = useState(0);
     const prev = (e) =>{
-        const imageBanner = document.querySelector('.banner_image');
         if(img === 0){
             setImg(5)
         }else {
@@ -15,7 +14,6 @@ function Banner({all}) {
         }
     } 
     const next = (e) =>{
-        const imageBanner = document.querySelector('.banner_image');
         if(img === 5){
             setImg(0)
         } else{

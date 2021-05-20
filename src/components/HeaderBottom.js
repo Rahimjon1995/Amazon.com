@@ -5,10 +5,12 @@ import LeftNavbar from './LeftNavbar';
 import { Link } from 'react-router-dom';
 import '../responsive/Header_bot_respon.css';
 
-function Header_bottom() {
+function HeaderBottom() {
     const openNavbar = (e) =>{
             document.body.style.overflow = "hidden";
-        let openNavbar = document.getElementById("left_navbar").style.display = "flex";
+        let openMenu = document.getElementById("left_navbar");
+        openMenu.style.display = "flex";
+            
           
      }
 
@@ -40,4 +42,4 @@ function Header_bottom() {
     )
 }
 
-export default Header_bottom
+export default HeaderBottom

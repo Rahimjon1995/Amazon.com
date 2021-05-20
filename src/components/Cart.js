@@ -7,7 +7,7 @@ import CurrencyFormat from "react-currency-format";
 import { getBasketSubtotal} from '../reducer';
 
 function Cart() {
-    const [basket, dispatch] = useStateValue();
+    const [basket ] = useStateValue();
     console.log(basket)
 
     
@@ -17,8 +17,7 @@ function Cart() {
         <Header/>
         
         <div className="cart_container">
-
-        <div className="shopping_your_items">
+         <div className="shopping_your_items">
         <div className="shopping_cart">
                     <div className="deselect">
                         <div className="deselect_text">
