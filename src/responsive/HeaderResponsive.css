@@ -1,0 +1,64 @@
+@media only screen and (max-width: 280px){
+    
+   
+}
+
+
+@media only screen and (max-width: 481px){
+    .card{
+        border: none;
+    }
+    .header_logo{
+        width: 20px;
+    }
+    /* .search_bar{
+        display: none;
+    } */
+    
+    
+}
+
+@media only screen and (max-width: 531px){
+    .card{
+        border: none;
+    }
+    .header_logo{
+        width: 70px;
+    }
+
+    
+}
+@media only screen and (max-width: 585px){
+    .Header_wrapper{
+        width: 100%;
+        
+
+    }
+    .language{
+        display: none;
+    }
+
+    .delivery_wrapper{
+        display: none;
+    }
+    .sign_in_out{
+        display: none;
+    }
+    .orders{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 965px){
+    
+
+    .delivery_wrapper{
+        display: none;
+    }
+    .sign_in_out{
+        display: none;
+    }
+    .orders{
+        display: none;
+    }
+}

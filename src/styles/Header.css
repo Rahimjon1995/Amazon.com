@@ -1,0 +1,248 @@
+
+.Header_wrapper{
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 99;
+    
+
+}
+.Header{
+    /* width: 100%; */
+    height: 60px;
+    background-color: #131921;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header_logo{
+    width: 100px;
+    margin: 20px;
+    border: 1px solid #131921;
+   
+}
+.header_logo:hover{
+    border: 1px solid #fff;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.delivery_wrapper{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin-right: 40px;
+    border: 1px solid #131921;
+}
+.delivery_wrapper:hover{
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.loc_icon{
+    color: #ffffff;
+}
+.deliver{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.deliver > span{
+    font-size: 12px;
+    color: rgb(185, 184, 184);
+}
+.search_bar{
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    height: 46px;
+    border: 4px solid #131921;
+    align-items: center;
+}
+#search{
+    height: 40px;
+    flex: 1;
+    text-indent: 10px;
+    border: none;
+    outline: none;
+    border-left: 1px solid #c3c2c2;
+    font-size: 16px;
+    
+}
+#category{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    width: 55px;
+    background-color: #dadada;
+    border: none;
+    text-indent: 10px;
+    color: #808080;
+    min-height: 40px;
+}
+.search_icon{
+    width: 40px;
+    height: 40px;
+    background-color: #f3a847;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.sear_icon{
+    color:#444444
+}
+
+
+.lang_img{
+    width: 30px;
+
+}
+
+.account{
+    display: flex;
+}
+
+.language{
+    display: flex;
+    align-items: center;
+    color: gray;
+    position: relative;
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #131921 ;
+    margin-left: 10px;
+}
+.language:hover{
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.link_style{
+    text-decoration: none;
+}
+.sign_in_out{
+    width: 150px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    border: 1px solid #131921 ;
+    position: relative;
+}
+.sign_in_out:hover{
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.sign > span{
+    font-size: 12px;
+}
+.sign > h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.orders{
+   color: #fff;
+   margin-left: 20px;
+   border: 1px solid #131921 ;
+}
+.orders:hover{
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.orders > span{
+    font-size: 12px;
+}
+.orders > h4{
+    font-size: 16px;
+    font-weight: 500;
+}
+.card{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    /* border: 1px solid red; */
+    border: 1px solid #131921 ;
+    padding: 3px 5px;
+}
+.card:hover{
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.card_img{
+    width: 30px;
+    margin-left: -10px;
+}
+.card > h4{
+    color: #fff;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.counter{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -14px;
+    left: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    border-radius: 360px;
+    background-color: #f07019;
+    color: #fff;
+}
+.counter > span{
+    margin-bottom: 2px;
+}
+
+.createLine{
+    border: 4px solid #f07019;
+    /* outline: 4px solid #f07019; */
+}
+.language_bar{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    position: absolute;
+    top: 45px;
+    left: -50px;
+    display: none;
+    padding: 30px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+.account_onMouse{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    position: absolute;
+    top: 45px;
+    left: -50%;
+    display: none;
+    padding: 30px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 10px;
+}
+
+
+.lang1{
+    display: flex;
+    
+}
+
+.active{
+    display: block;
+}
+

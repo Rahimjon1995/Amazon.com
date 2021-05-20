@@ -1,0 +1,44 @@
+/* .login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justifity-content: center;
+    flex-direction: column;
+    
+} */
+
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login_logo{
+    width: 200px;
+}
+
+.amazon_infor{
+    font-size: 20px;
+    padding-top: 20px;
+    color: blue;
+    font-weight: 700;
+    text-shadow: 5px 1px 6px rgb(233, 146, 47);
+}
+
+.sign-in{
+    margin-top: 30px;
+    padding: 15px  25px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(233, 146, 47);
+    outline: none;
+    cursor: pointer;
+}
+/* .login_logo{
+        
+        width: 200px;
+} */

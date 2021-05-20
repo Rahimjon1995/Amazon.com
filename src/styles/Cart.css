@@ -1,0 +1,110 @@
+.cart_wrapper{
+    width: 100%;
+    height: auto;
+    min-width: 842px;
+    margin: auto;
+    background-color: #e1e2e3;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    
+}
+.cart_container{
+    width: 96%;
+    height: auto;
+    margin: 3% auto;
+    /* border: 1px solid red; */
+    display: flex;
+    padding-top: 7%;
+    
+}
+.shopping_your_items{
+    width: 70%;
+    height: auto;
+    /* border: 1px solid black; */
+}
+.shopping_cart{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid green; */
+    background-color: #fff;
+    padding: 15px;
+    
+}
+.deselect{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #737475;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.deselect_text > p{
+    color: blue;
+    cursor: pointer;
+    margin-top: 2%;
+}
+.price{
+    margin-top: 4%;
+    color: #737475;
+    font-size: 20px;
+    font-weight: 500;
+    padding-right: 2%;
+}
+.your_items{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-top: 3.5%;
+}
+.subtotal{
+    width: 30%;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.subtotal_items{
+    width: 95%;
+    height: 150px;
+    /* border: 1px solid red; */
+    background-color: #fff;
+    margin-left: 5%;
+    margin-top: -12px;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 5% 2% 10%;
+}
+.subtotal_items > div{
+    margin-top: 4%;
+}
+.buton_submit{
+    width: 100%;
+    height: 30px;
+    border: none;
+    background-color: orange;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.frequently{
+    width: 95%;
+    height: auto;
+    /* border: 1px solid black; */
+    background-color: #fff;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+@media only screen and (max-width: 1061px){
+    .cart_container{
+        width: 90%;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 942px){
+    .cart_container{
+        margin-top: 10%;
+    }
+}

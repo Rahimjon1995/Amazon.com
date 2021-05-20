@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1212px){
+    .content_wrapper_top{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat( 3 1fr);
+        grid-gap: 20px;
+        
+    }
+    .img_content_shopping{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+      }
+}
+@media only screen and (max-width: 950px){
+    .content_wrapper_top{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat( 4, 1fr);
+        grid-gap: 20px;
+        
+    }
+
+    .img_content_shopping{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+      }
+}
+@media only screen and (max-width: 950px){
+    .sign_in_for_the_best > strong{
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 583px){
+    /* .sign_in_for_the_best > strong{
+        font-size: 8px;
+    } */
+    .discover_Amazon{
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+@media only screen and (max-width: 1102px){
+    .menu_ul{
+       display: none;
+    }
+    .amazon_covid{
+        width: 80%;
+    }
+    
+}
+@media only screen and (max-width: 314px){
+        .amazon_covid{
+        display: none;
+    }
+    
+}
