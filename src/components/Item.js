@@ -2,7 +2,7 @@ import React from 'react';
 import { useStateValue } from "../StateProvider";
 
 function Item({ id, title, image, cost}) {
-    const [dispatch] = useStateValue([]);
+    const [{}, dispatch] = useStateValue([]);
     const addToCart = (e) => {
         dispatch({
             type: "ADD_TO_CART",
