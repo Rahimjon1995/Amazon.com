@@ -1,7 +1,7 @@
 .content_wrapper {
   width: 100%;
   height: auto;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background-color: #e2e2db;
   position: absolute;
   top: 52%;

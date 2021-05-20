@@ -1,0 +1,91 @@
+@media only screen and (max-width: 1365px){
+    .footer_wrapper{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 265%;
+      }
+}
+
+@media only screen and (max-width: 1213px){
+    .footer_wrapper{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 320%;
+      }
+      .footer_top_content_top_div{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+        padding-bottom: 5%;
+        padding-top: 3%;
+      }
+}
+
+@media only screen and (max-width: 950px){
+    .footer_wrapper{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 435%;
+      }
+}
+@media only screen and (max-width: 907px){
+    .footer_top_content_top_div{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+        padding-bottom: 5%;
+        padding-top: 3%;
+      }
+}
+
+@media only screen and (max-width: 642px){
+    .footer_top_content_bottom_div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer_bottom_content_wrapper{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+@media only screen and (max-width: 585px){
+    .footer_wrapper{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 435%;
+      }
+
+      .footer_top_content_top_div{
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        padding-bottom: 5%;
+        padding-top: 3%;
+      }
+      .footer_top_content_top_div > ul{
+          width: 60%;
+        margin: auto;
+
+      }
+}
+@media only screen and (max-width: 583px){
+    .footer_wrapper{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 385%;
+      }
+}

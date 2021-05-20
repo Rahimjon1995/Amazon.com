@@ -66,9 +66,9 @@ function Footer() {
           </ul>
         </div>
         <div className="footer_top_content_bottom_div">
-          <div className="footer_top_content_bottom_img">
+          <Link to="/"><div className="footer_top_content_bottom_img">
               <img src="https://pngimg.com/uploads/amazon/amazon_PNG25.png" alt="" />
-          </div>
+          </div></Link>
           <div className="footer_top_content_bottom_language">
               <div className="english_footer">
                 <LanguageIcon/> English

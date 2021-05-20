@@ -3,13 +3,14 @@
   height: auto;
   position: absolute;
   top: 290%;
-  border: 1px solid green;
+  min-width: 550px;
+  margin: auto;
 }
 .sign_in_to{
   width: 100%;
   height: 240px;
   background-color: #fff;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: relative;
   top: 0%;
 }
@@ -23,17 +24,19 @@
   width: 100%;
   height: 45%;
   /* background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .sign_button{
-  width: 300px;
+  width: 50%;
   height: 35px;
-  position: relative;
-  top: 15%;
-  left: 37%;
+  margin: auto;
   background-color: #e39e09;
   border-radius: 5px;
   border: 1px solid black;
   cursor: pointer;
+
 }
 .sign_in_to_bottom_content{
   width: 100%;
@@ -54,28 +57,37 @@
 }
 .footer_top_content{
   width: 100%;
-  height: 74vh;
+  height: auto;
   background-color: #232F3E;
 }
 .footer_top_content_top_div{
-  width: 80%;
-  height: 75%;
+  width: 90%;
+  height: auto;
   margin: auto;
   /* border: 1px solid red; */
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 20px;
+  padding-bottom: 5%;
+  padding-top: 3%;
 }
 .footer_top_content_top_div > ul{
-  width: 24%;
+  width: 100%;
   height: 100%;
   /* border: 1px solid green; */
   padding-left: 2%;
   padding-top: 2%;
   color: #fff;
+  padding-bottom: 7%;
+}
+.footer_top_content_top_div > ul > h3{
+  text-indent: 14%;
 }
 .footer_top_content_top_div > ul > li{
-  width: 100%;
+  width: 70%;
   height: 20px;
+  margin: auto;
   /* border: 1px solid red; */
   list-style: none;
   margin-top: 2%;
@@ -84,33 +96,28 @@
   width: 100%;
   height: 25%;
   border-top: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .footer_top_content_bottom_img{
-  width: 100px;
+  width: 200px;
   height: 35%;
-  /* border: 1px solid red; */
-  position: relative;
-  top: 30%;
-  left: 27%;
+ 
 }
 .footer_top_content_bottom_img > img{
-  width: 100%;
+  width: 60%;
   height: 100%;
 }
 .footer_top_content_bottom_language{
   width: 450px;
   height: 35%;
-  /* border: 1px solid red; */
-  position: relative;
-  top: -6%;
-  left: 40%;
   display: flex;
   justify-content: space-between;
 }
 .english_footer{
   width: 28%;
   height: 100%;
-  /* background-color: red; */
   border: 1px solid #ccc;
   border-radius: 3px;
   display: flex;
@@ -121,7 +128,6 @@
 .ussd_dollor{
   width: 37%;
   height: 100%;
-  /* background-color: green ; */
   border: 1px solid #ccc;
   border-radius: 3px;
   display: flex;
@@ -132,7 +138,6 @@
 .ussd_dollor2{
   width: 32%;
   height: 100%;
-  /* background-color: green ; */
   border: 1px solid #ccc;
   border-radius: 3px;
   display: flex;
@@ -148,22 +153,23 @@
 }
 .footer_bottom_content{
   width: 100%;
-  height: 80vh;
-  /* border: 1px solid red; */
+  height: auto;
   background-color: #131A22;
 }
 .footer_bottom_content_wrapper{
-  width: 80%;
-  height: 90%;
+  width: 90%;
+  height: auto;
   /* border: 1px solid black; */
   margin: auto;
   /* background-color: red; */
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 20px;
 }
 
 .link_div_first{
-  width: 11%;
+  width: 100%;
   height: 100%;
   /* border: 1px solid blue; */
   padding-top: 3%;

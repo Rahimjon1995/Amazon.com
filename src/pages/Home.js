@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Banner from '../components/Banner';
 import Content from '../components/Content';
-// import Footer from '../components/Footer';
+import Footer from '../components/Footer';
 
 
 function Home({all, data, allContent}) {
@@ -11,7 +11,7 @@ function Home({all, data, allContent}) {
             <Header/>
             <Banner all={all}/>
             <Content data={data} allContent={allContent}/>
-            {/* <Footer/> */}
+           <Footer/>
         </div>
     )
 }
